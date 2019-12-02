@@ -1,0 +1,192 @@
+{                           
+  "compilerOptions": {
+    /* Basic Options */
+    /* Enable incremental compilation */
+    "incremental": false,
+    /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "target": "ES2019",
+    /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "module": "amd",
+    /* The character set of the input files. */
+    "charset": "utf-8",
+    /* The locale to use to show error messages, e.g. en-us. */
+    "locale": "fr-fr",
+    /* Specify library files to be included in the compilation. */
+    "lib": [],
+    /* Do not include the default library file (lib.d.ts). */
+    "noLib": false,
+    /* Allow javascript files to be compiled. */
+    "allowJs": true,
+    /* Report errors in .js files. */
+    "checkJs": false,
+    /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    "jsx": "preserve",
+    /* Generates corresponding '.map' file. */
+    "sourceMap": false,
+    /* Concatenate and emit output to single file. */
+    // "outFile": "",
+    /* Redirect output structure to the directory. */
+    "outDir": "",
+    /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "rootDir": "./",
+    /* Enable project compilation */
+    "composite": false,
+    /* Specify file to store incremental compilation information */
+    "tsBuildInfoFile": ".tsbuildinfo",
+    /* Do not emit comments to output. */
+    "removeComments": false,
+    /* Do not emit outputs. */
+    "noEmit": false,
+    /* Import emit helpers from 'tslib'. */
+    "importHelpers": false,
+    /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    "downlevelIteration": false,
+    /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    "isolatedModules": false,
+    /* Builds this project and all of its dependencies specified by Project References. */
+    "build": false,
+    /* Do not emit outputs if any errors were reported. */
+    "noEmitOnError": false,
+    /* Do not truncate error messages. */
+    "noErrorTruncation": false,
+    /* Show diagnostic information. */
+    "diagnostics": false,
+    /* Disable size limitation on JavaScript project. */
+    "disableSizeLimit": false,
+    /* Emit a UTF-8 Byte Order Mark (BOM) in the beginning of output files. */
+    "emitBOM": false,
+    /* Show verbose diagnostic information. */
+    "extendedDiagnostics": false,
+    /* Resolve keyof to string valued property names only (no numbers or symbols). */
+    "keyofStringsOnly": false,
+    /* Emit class fields with ECMAScript-standard semantics. */
+    "useDefineForClassFields": false,
+    /* Print names of generated files part of the compilation. */
+    "listEmittedFiles": false,
+    /* Print names of files part of the compilation. */
+    "listFiles": false,
+    /* Use the specified end of line sequence to be used when emitting files: "crlf" (windows) or "lf" (unix).” */
+    "newLine": "crlf",
+    /* Do not generate custom helper functions like __extends in compiled output. */
+    "noEmitHelpers": false,
+    /* Do not add triple-slash references or module import targets to the list of compiled files. */
+    "noResolve": false,
+    /* Keep outdated console output in watch mode instead of clearing the screen */
+    "preserveWatchOutput": false,
+    /* Stylize errors and messages using color and context. */
+    "pretty": false,
+    /* 	Compile a project given a valid configuration file. The argument can be a file path to a valid JSON configuration file, or a directory path to a directory containing a tsconfig.json file. */
+    "project": "",
+    /* Rather than actually execute a build with the other input options and config files, show the final implied config file in the output. */
+    "showConfig": false,
+    /* Report module resolution log messages. */
+    "traceResolution": false,
+
+    /* Strict Type-Checking Options */
+    /* Enable all strict type-checking options. */
+    "strict": false,
+    /* Raise error on expressions and declarations with an implied 'any' type. */
+    "noImplicitAny": false,
+    /* Enable strict null checks. */
+    "strictNullChecks": false,
+    /* Enable strict checking of function types. */
+    "strictFunctionTypes": false,
+    /* Enable strict 'bind', 'call', and 'apply' methods on functions. */
+    "strictBindCallApply": false,
+    /* Enable strict checking of property initialization in classes. */
+    "strictPropertyInitialization": false,
+    /* Raise error on 'this' expressions with an implied 'any' type. */
+    "noImplicitThis": false,
+    /* Parse in strict mode and emit "use strict" for each source file. */
+    "alwaysStrict": false,
+    /* Do not report errors on unreachable code. */
+    "allowUnreachableCode": false,
+    /* Do not report errors on unused labels. */
+    "allowUnusedLabels": false,
+    /* Include modules imported with .json extension. */
+    "resolveJsonModule": false,
+    /* Skip type checking of all declaration files (*.d.ts). */
+    "skipLibCheck": false,
+
+    /* Additional Checks */
+    /* Report errors on unused locals. */
+    "noUnusedLocals": false,
+    /* Report errors on unused parameters. */
+    "noUnusedParameters": false,
+    /* Report error when not all code paths in function return a value. */
+    "noImplicitReturns": false,
+    /* Report errors for fallthrough cases in switch statement. */
+    "noFallthroughCasesInSwitch": false,
+    /* Disallow inconsistently-cased references to the same file. */
+    "forceConsistentCasingInFileNames": false,
+    /* Do not emit "use strict" directives in module output. */
+    "noImplicitUseStrict": false,
+    /* Disable strict checking of generic signatures in function types. */
+    "noStrictGenericChecks": false,
+    /* Do not erase const enum declarations in generated code. See const enums documentation for more details. */
+    "preserveConstEnums": false,
+    /* Suppress excess property checks for object literals. */
+    "suppressExcessPropertyErrors": false,
+    /* Suppress --noImplicitAny errors for indexing objects lacking index signatures. See issue #1232 for more details. */
+    "suppressImplicitAnyIndexErrors": false,
+
+    /* Module Resolution Options */
+    /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "moduleResolution": "node",
+    /* Base directory to resolve non-absolute module names. */
+    "baseUrl": "./",
+    /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+    "paths": {},
+    /* List of root folders whose combined content represents the structure of the project at runtime. */
+    "rootDirs": [],
+    /* List of folders to include type definitions from. */
+    "typeRoots": [],
+    /* Type declaration files to be included in compilation. */
+    "types": [],
+    /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "allowSyntheticDefaultImports": false,
+    /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "esModuleInterop": false,
+    /* Do not resolve the real path of symlinks. */
+    "preserveSymlinks": false,
+    /* Allow accessing UMD globals from modules. */
+    "allowUmdGlobalAccess": false,
+    /* The maximum dependency depth to search under node_modules and load JavaScript files. Only applicable with --allowJs. */
+    "maxNodeModuleJsDepth": 0,
+
+    /* Declarations *.d.ts*/
+    /* Generates corresponding '.d.ts' file. */
+    "declaration": false,
+    /* Output directory for generated declaration files. */
+    // "declarationDir": "",
+    /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    "declarationMap": false,
+    /* Only emit ‘.d.ts’ declaration files. */
+    "emitDeclarationOnly": false,
+
+    /* Source Map Options */
+    /* Specify the location where debugger should locate TypeScript files instead of source locations. */
+    "sourceRoot": "",
+    /* Specify the location where debugger should locate map files instead of generated locations. */
+    "mapRoot": "",
+    /* Emit a single file with source maps instead of having a separate file. */
+    "inlineSourceMap": false,
+    /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
+    "inlineSources": false,
+
+    /* Experimental Options */
+    /* Enables experimental support for ES7 decorators. */
+    "experimentalDecorators": false,
+    /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": false
+  },
+  /* Signals to the IDE to generate all files for a given tsconfig.json upon saving. */
+  "compileOnSave": false,
+  /* inherit configurations from another file. */
+  // "extends": "",
+  /* Structure programs into smaller pieces. */
+  "references": [],
+  "files": [],
+  "include": [],
+  "exclude": []
+}
