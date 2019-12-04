@@ -1,8 +1,11 @@
-{                           
+{
   "compilerOptions": {
     /* Basic Options */
-    /* Enable incremental compilation */
-    "incremental": false,
+    /*
+      Enable incremental compilation.
+      This option saves a bunch of information to a .tsbuildinfo file that can be used to speed up subsequent calls to tsc.
+    */
+    "incremental": true,
     /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
     "target": "ES2019",
     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
@@ -139,9 +142,15 @@
     "paths": {},
     /* List of root folders whose combined content represents the structure of the project at runtime. */
     "rootDirs": [],
-    /* List of folders to include type definitions from. */
+    /* 
+      List of folders to include type definitions from.
+      Only packages under typeRoots will be included.
+    */
     "typeRoots": [],
-    /* Type declaration files to be included in compilation. */
+    /*
+      Type declaration files to be included in compilation.
+      Only packages listed will be included.
+    */
     "types": [],
     /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     "allowSyntheticDefaultImports": false,
