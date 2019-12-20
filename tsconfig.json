@@ -8,6 +8,8 @@
     "incremental": true,
     /* Specify file to store incremental compilation information */
     "tsBuildInfoFile": ".tsbuildinfo",
+    /* Allow javascript files to be compiled. */
+    "allowJs": true,
 
 
     /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
@@ -22,8 +24,6 @@
     "lib": [],
     /* Do not include the default library file (lib.d.ts). */
     "noLib": false,
-    /* Allow javascript files to be compiled. */
-    "allowJs": true,
     /* Report errors in .js files. */
     "checkJs": false,
     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
