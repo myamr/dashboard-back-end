@@ -1,100 +1,53 @@
 - tsconfig.json
-    --help
-    --generateCpuProfile
-    --init
-    --jsxFactory
-    --version
-    --watch
-
-{                           
-  "compilerOptions": {
-    "target": "ES2019",
-    "module": "amd",
-    "charset": "utf-8",
-    "locale": "fr-fr",
-    "lib": [],
-    "noLib": false,
-    "allowJs": true,
-    "checkJs": false,
-    "jsx": "preserve",
-    "sourceMap": false,
-    "outFile": "",
-    "outDir": "",
-    "rootDir": "./",
-    "composite": false,
-    "tsBuildInfoFile": ".tsbuildinfo",
-    "removeComments": false,
-    "noEmit": false,
-    "importHelpers": false,
-    "downlevelIteration": false,
-    "isolatedModules": false,
-    "build": false,
-    "noEmitOnError": false,
-    "noErrorTruncation": false,
-    "diagnostics": false,
-    "disableSizeLimit": false,
-    "emitBOM": false,
-    "extendedDiagnostics": false,
-    "keyofStringsOnly": false,
-    "useDefineForClassFields": false,
-    "listEmittedFiles": false,
-    "listFiles": false,
-    "newLine": "crlf",
-    "noEmitHelpers": false,
-    "noResolve": false,
-    "preserveWatchOutput": false,
-    "pretty": false,
-    "project": "",
-    "showConfig": false,
-    "traceResolution": false,
-    "strict": false,
-    "noImplicitAny": false,
-    "strictNullChecks": false,
-    "strictFunctionTypes": false,
-    "strictBindCallApply": false,
-    "strictPropertyInitialization": false,
-    "noImplicitThis": false,
-    "alwaysStrict": false,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "resolveJsonModule": false,
-    "skipLibCheck": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noImplicitReturns": false,
-    "noFallthroughCasesInSwitch": false,
-    "forceConsistentCasingInFileNames": false,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "preserveConstEnums": false,
-    "suppressExcessPropertyErrors": false,
-    "suppressImplicitAnyIndexErrors": false,
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "paths": {},
-    "rootDirs": [],
-    "typeRoots": [],
-    "types": [],
-    "allowSyntheticDefaultImports": false,
-    "esModuleInterop": false,
-    "preserveSymlinks": false,
-    "allowUmdGlobalAccess": false,
-    "maxNodeModuleJsDepth": 0,
-    "declaration": false,
-    // "declarationDir": "",
-    "declarationMap": false,
-    "emitDeclarationOnly": false,
-    "sourceRoot": "",
-    "mapRoot": "",
-    "inlineSourceMap": false,
-    "inlineSources": false,
-    "experimentalDecorators": false,
-    "emitDecoratorMetadata": false
-  },
-  "compileOnSave": false,
-  "extends": "",
-  "references": [],
-  "files": [],
-  "include": [],
-  "exclude": []
-}
+  allowSyntheticDefaultImports
+  allowUmdGlobalAccess
+  baseUrl
+  build
+  charset
+  composite
+  declaration
+  declarationDir
+  declarationMap
+  disableSizeLimit
+  downlevelIteration
+  emitBOM
+  emitDeclarationOnly
+  emitDecoratorMetadata
+  esModuleInterop
+  generateCpuProfile
+  importHelpers
+  incremental
+  inlineSourceMap
+  inlineSources
+  isolatedModules
+  jsx
+  jsxFactory
+  keyofStringsOnly
+  useDefineForClassFields
+  lib
+  mapRoot
+  maxNodeModuleJsDepth
+  module
+  moduleResolution
+  newLine
+  noEmitHelpers
+  noErrorTruncation
+  noLib
+  noResolve
+  noStrictGenericChecks
+  outDir
+  outFile
+  paths
+  preserveConstEnums
+  preserveSymlinks
+  project
+  resolveJsonModule
+  rootDir
+  skipLibCheck
+  sourceMap
+  sourceRoot
+  suppressExcessPropertyErrors
+  suppressImplicitAnyIndexErrors
+  target
+  types
+  typeRoots

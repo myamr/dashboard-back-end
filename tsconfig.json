@@ -8,10 +8,6 @@
     "incremental": true,
     /* Specify file to store incremental compilation information */
     "tsBuildInfoFile": ".tsbuildinfo",
-    /* Allow javascript files to be compiled. */
-    "allowJs": true,
-
-
     /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
     "target": "ES2019",
     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
@@ -24,8 +20,10 @@
     "lib": [],
     /* Do not include the default library file (lib.d.ts). */
     "noLib": false,
+    /* Allow javascript files to be compiled. */
+    "allowJs": true,
     /* Report errors in .js files. */
-    "checkJs": false,
+    "checkJs": true,
     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     "jsx": "preserve",
     /* Generates corresponding '.map' file. */
@@ -39,7 +37,7 @@
     /* Enable project compilation */
     "composite": false,
     /* Do not emit comments to output. */
-    "removeComments": false,
+    "removeComments": true,
     /* Do not emit outputs. */
     "noEmit": false,
     /* Import emit helpers from 'tslib'. */
@@ -51,25 +49,25 @@
     /* Builds this project and all of its dependencies specified by Project References. */
     "build": false,
     /* Do not emit outputs if any errors were reported. */
-    "noEmitOnError": false,
+    "noEmitOnError": true,
     /* Do not truncate error messages. */
     "noErrorTruncation": false,
     /* Show diagnostic information. */
-    "diagnostics": false,
+    "diagnostics": true,
     /* Disable size limitation on JavaScript project. */
     "disableSizeLimit": false,
     /* Emit a UTF-8 Byte Order Mark (BOM) in the beginning of output files. */
     "emitBOM": false,
     /* Show verbose diagnostic information. */
-    "extendedDiagnostics": false,
+    "extendedDiagnostics": true,
     /* Resolve keyof to string valued property names only (no numbers or symbols). */
     "keyofStringsOnly": false,
     /* Emit class fields with ECMAScript-standard semantics. */
     "useDefineForClassFields": false,
     /* Print names of generated files part of the compilation. */
-    "listEmittedFiles": false,
+    "listEmittedFiles": true,
     /* Print names of files part of the compilation. */
-    "listFiles": false,
+    "listFiles": true,
     /* Use the specified end of line sequence to be used when emitting files: "crlf" (windows) or "lf" (unix).” */
     "newLine": "crlf",
     /* Do not generate custom helper functions like __extends in compiled output. */
@@ -77,33 +75,33 @@
     /* Do not add triple-slash references or module import targets to the list of compiled files. */
     "noResolve": false,
     /* Keep outdated console output in watch mode instead of clearing the screen */
-    "preserveWatchOutput": false,
+    "preserveWatchOutput": true,
     /* Stylize errors and messages using color and context. */
-    "pretty": false,
+    "pretty": true,
     /* 	Compile a project given a valid configuration file. The argument can be a file path to a valid JSON configuration file, or a directory path to a directory containing a tsconfig.json file. */
     "project": "",
     /* Rather than actually execute a build with the other input options and config files, show the final implied config file in the output. */
-    "showConfig": false,
+    "showConfig": true,
     /* Report module resolution log messages. */
-    "traceResolution": false,
+    "traceResolution": true,
 
     /* Strict Type-Checking Options */
     /* Enable all strict type-checking options. */
-    "strict": false,
+    "strict": true,
     /* Raise error on expressions and declarations with an implied 'any' type. */
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     /* Enable strict null checks. */
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     /* Enable strict checking of function types. */
-    "strictFunctionTypes": false,
+    "strictFunctionTypes": true,
     /* Enable strict 'bind', 'call', and 'apply' methods on functions. */
-    "strictBindCallApply": false,
+    "strictBindCallApply": true,
     /* Enable strict checking of property initialization in classes. */
-    "strictPropertyInitialization": false,
+    "strictPropertyInitialization": true,
     /* Raise error on 'this' expressions with an implied 'any' type. */
-    "noImplicitThis": false,
+    "noImplicitThis": true,
     /* Parse in strict mode and emit "use strict" for each source file. */
-    "alwaysStrict": false,
+    "alwaysStrict": true,
     /* Do not report errors on unreachable code. */
     "allowUnreachableCode": false,
     /* Do not report errors on unused labels. */
@@ -115,15 +113,15 @@
 
     /* Additional Checks */
     /* Report errors on unused locals. */
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     /* Report errors on unused parameters. */
-    "noUnusedParameters": false,
+    "noUnusedParameters": true,
     /* Report error when not all code paths in function return a value. */
-    "noImplicitReturns": false,
+    "noImplicitReturns": true,
     /* Report errors for fallthrough cases in switch statement. */
-    "noFallthroughCasesInSwitch": false,
+    "noFallthroughCasesInSwitch": true,
     /* Disallow inconsistently-cased references to the same file. */
-    "forceConsistentCasingInFileNames": false,
+    "forceConsistentCasingInFileNames": true,
     /* Do not emit "use strict" directives in module output. */
     "noImplicitUseStrict": false,
     /* Disable strict checking of generic signatures in function types. */
@@ -187,7 +185,7 @@
 
     /* Experimental Options */
     /* Enables experimental support for ES7 decorators. */
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     /* Enables experimental support for emitting type metadata for decorators. */
     "emitDecoratorMetadata": false
   },
